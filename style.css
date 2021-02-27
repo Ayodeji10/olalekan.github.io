@@ -109,6 +109,14 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
     color: white
 }
 
+.masthead h1 {
+    font-size: 35px;
+}
+
+.masthead h3 {
+    font-size: 20px;
+}
+
 /* services  */
 .services, .about, .contact {
     padding: 35px
@@ -121,9 +129,19 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
     font-weight: 600;
 }
 
+.card button {
+    background-color: #fed136;
+    color: black;
+    border-radius: 7px;
+    width: 100%;
+    padding: 12px;
+    border: 0px
+}
+
+/* portfolio  */
 .portfolio {
     background-color: #FAFAFA;
-    padding: 40px 170px;
+    padding: 40px 170px 0px 170px;
 } 
 
 .portfolio img {
@@ -139,12 +157,24 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
     padding: 0px 80px
 }
 
+.description, .about p {
+    font-size: 15px;
+}
+
 .portfolio h1 {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .place {
     padding-bottom: 40px;
+}
+
+.card h4 a {
+    font-size: 19px
+}
+
+.card h5 {
+    font-size: 15px;
 }
 
 /* about  */
