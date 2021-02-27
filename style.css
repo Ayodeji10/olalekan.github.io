@@ -58,6 +58,9 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
     color: #fed136 !important;
 }
 
+.navbar h1 {
+    font-size: 32px;
+}
 .nav-link {
     color: white !important;
 }
@@ -108,11 +111,11 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
 
 /* services  */
 .services, .about, .contact {
-    padding: 70px
+    padding: 35px
 }
 
 .services h1, .portfolio #title, .about h1, .contact h1 {
-    font-size: 55px;
+    font-size: 40px;
     text-align:center;
     padding: 40px 0px;
     font-weight: 600;
@@ -162,7 +165,7 @@ ul li, li, a, h1, h2, h3, h4, h5, h6, p, span, i, button, input {
     background: url(img/3004483.jpg);
     background-size: cover;
     background-position: center;
-    padding: 100px 70px 140px 70px
+    padding: 50px 70px 100px 70px
 }
 
 .contact h1 {
@@ -224,7 +227,7 @@ footer i {
 /* media queries */
 @media (min-width: 1201px) and (max-width:1375px){
     .navbar h1 {
-        font-size: 32px;
+        font-size: 32px !important;
     }
 
     .masthead {
@@ -239,7 +242,7 @@ footer i {
 
 @media (min-width: 990px) and (max-width:1200px){
     .navbar h1 {
-        font-size: 26px;
+        font-size: 32px !important;
     }
 
     .masthead {
@@ -292,6 +295,11 @@ footer i {
         padding: 0px 30px
     }
 
+    /* contact  */
+    .contact {
+        padding: 30px 70px 80px 70px;
+    }
+
     /* footer  */
     footer {
         padding: 20px 0px;
@@ -304,7 +312,7 @@ footer i {
 
 @media (min-width: 376px) and (max-width: 768px) {
     .navbar h1 {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .navbar {
@@ -322,6 +330,10 @@ footer i {
 
     .services h1 {
         padding: 20px 0px;
+    }
+
+    .services h1, .portfolio #title, .about h1, .contact h1 {
+        font-size: 38px;
     }
 
     /* portfolio  */
@@ -363,7 +375,7 @@ footer i {
 
 @media (max-width: 375px) {
     .navbar h1 {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .navbar {
@@ -380,6 +392,10 @@ footer i {
 
     .services h1, .portfolio #title {
         padding: 20px 0px;
+    }
+
+    .services h1, .portfolio #title, .about h1, .contact h1 {
+        font-size: 35px;
     }
 
     /* portfolio  */
